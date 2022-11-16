@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form regist</title>
+	<style>
+	* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #FFDAC7;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: lightpink;
+}
+
+section {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+	.contact .row{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap:20px;
+    align-items: center;
+}
+.ol schedule{
+  font-size: 25px;
+}
+.schedule{
+    background-color: #FB9E91;
+    color: #3C3D47;
+    margin: 20px;
+    border: 2px double #0B032D;
+    padding: 20px;
+    font-family: ubuntu;
+  }
+
+.contact .row form{
+    flex:1 1 30px;
+    padding:10px 25px;
+    box-shadow: 0 2px 3px #cccccc;
+    border:2px solid #cccccc;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.contact .row form .box{
+    padding:7px;
+    font-size: 24px;
+    color:#333333;
+    text-transform: none;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    margin:10px 0;
+    width: 100%;
+}
+
+.contact .row form textarea{
+    height: 300px;
+    resize: none;
+}
+#contact {
+    background: #dedede;
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+	</style>
+</head>
+<body>
+	<nav>
+        <div class="wrapper">
+            <div class="logo"><a href=''>Kyootie Baked Goods</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="Form.html" class="tbl-biru">Regist</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="schedule">
+    <h1 align="center">How To Order</h1>
+    <br>
+    <br>
+    <ol class="schedule">
+  <li>Massage us throught our WhatsApp number</li>
+  <li>Order can be made as a long as the slots are still available for the selected date in maximum 3 day in advance</li>
+  <li>We highly recommend to order 1 week before the delivery date (first come, first served)</li>
+  <li>Order form is given after we discussed and confirm your cake flavour and design, selected date, and your delivery time</li>
+  <li>Finalize your order by paying us within 1x24 hours after your invoice has been sent</li>
+</ol>
+<br>
+<br>
+</div>
+	<section class="contact">
+
+    <h1 class="heading" align="center"> <span> Form </span> Order </h1>
+    <br>
+    <br>
+    <div class="row">
+
+        <form action="">
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="number" class="box">
+            <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+    </div>
+
+</section>
+<br>
+<br>
+<div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>Kyootie Baked Goods</h3>
+                    <p><b>Fresh Cream Base</b></p>
+                </div>
+                <div class="footer-section">
+                    <h3>AVAILABLE ON</h3>
+                    <p><b>GoFood</b></p>
+                    <p><b>GrabFood</b></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Jl. Mangga V No.121 Kota Tangerang, Banten</p>
+                    <p>Kode Pos: 15138</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Talk With Us</h3>
+                    <p><b>Email: </b>KyootieBakedGoods@Gmail.com</p>
+                    <p><b>WhatsApp: </b>+62 851 731 788 09</p>
+                    <p><b>Monday - Sunday : 07.15 - 21.00 (GMT+7)</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2022. <b>Kyootie Baked Goods</b> All Rights Reserved.
+        </div>
+    </div>
+</body>
+</html>

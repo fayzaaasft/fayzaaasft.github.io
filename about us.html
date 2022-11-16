@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #FFDAC7;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: lightpink;
+}
+
+section {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+#more {display: none;}
+
+.about p{
+  font-size: 25px;
+}
+.about{
+    background-color: #FB9E91;
+    color: #3C3D47;
+    margin: 20px;
+    border: 2px double #0B032D;
+    padding: 20px;
+    font-family: ubuntu;
+  }
+
+  #contact {
+    background: #dedede;
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+</style>
+</head>
+<body>
+  <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=''>Kyootie Baked Goods</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="Form.html" class="tbl-biru">Regist</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div class="about">
+<h1 align="center">Kyootie Baked Goods Story</h1>
+<br>
+<br>
+<p>The short story of home-based bakery begins in 2022 on the corner of the city where Kyootie Baked Goods opened its doors for the first time. The sweet smell of cakes and cookies and pies and pudding tumbled out, wafting down the streets, beckoning all in. <span id="dots">...</span><span id="more">Our red velvet cupcakes became iconic and people lined up around the block for our banana pudding. Kyootie Baked Goods was a destination for locals and tourists alike.
+
+It was time for us to open the cupboards and share our magic with the world. Our neighborhood bakery found its way into new neighborhoods near and far, we wrote cookbooks and helped people all over celebrate their most important moments.
+
+And while we have grown, a few things will always remain: open early and close late, a dollop of buttercream makes everything better, and our mission: We will make your dream cake come true</span></p>
+<button onclick="myFunction()" id="myBtn">Read more</button></div>
+<br>
+<div class="about">
+    <h1 align="center">The Story Of Cake</h1>
+    <br>
+    <br>
+    <p>The term "cake" has a long history. The word itself is of Viking origin, from the Old Norse word "kaka".
+
+    The ancient Greeks called cake (plakous), which was derived from the word for "flat", (plakoeis). It was baked using flour mixed with eggs, milk, nuts, and honey. They also had a cake called "satura", which was a flat heavy cake. During the Roman period, the name for cake became "placenta" which was derived from the Greek term. A placenta was baked on a pastry base or inside a pastry case.
+
+    The Greeks invented beer as a leavener, frying fritters in olive oil, and cheesecakes using goat's milk. In ancient Rome, the basic bread dough was sometimes enriched with butter, eggs, and honey, which produced a sweet and cake-like baked good. Latin poet Ovid refers to his and his brother's birthday party and cake in his first book of exile, Tristia.
+
+    Early cakes in England were also essentially bread: the most obvious differences between a "cake" and "bread" were the round, flat shape of the cakes, and the cooking method, which turned cakes over once while cooking, while bread was left upright throughout the baking process.
+
+    Sponge cakes, leavened with beaten eggs, originated during the Renaissance, possibly in Spain.
+
+    <a href="https://en.wikipedia.org/wiki/Cake">More Story</a></p>
+</div>
+<br>
+<div class="about">
+    <h1 align="center">The Story Of Cupcake</h1>
+    <br>
+    <br>
+    <p>The earliest extant description of what is now often called a cupcake was in 1796, when a recipe for "a light cake to bake in small cups" was written in American Cookery by Amelia Simmons. The earliest extant documentation of the term cupcake itself was in "Seventy-five Receipts for Pastry, Cakes, and Sweetmeats" in 1828 in Eliza Leslie's Receipts cookbook.
+
+    In the early 19th century, there were two different uses for the term cup cake or cupcake. In previous centuries, before muffin tins were widely available, the cakes were often baked in individual pottery cups, ramekins, or molds and took their name from the cups they were baked in. This is the use of the name that has remained, and the name of "cupcake" is now given to any small, round cake that is about the size of a teacup. While English fairy cakes vary in size more than American cupcake, they are traditionally smaller and are rarely topped with elaborate frosting.
+
+    The other kind of "cup cake" referred to a cake whose ingredients were measured by volume, using a standard-sized cup, instead of being weighed. Recipes whose ingredients were measured using a standard-sized cup could also be baked in cups; however, they were more commonly baked in tins as layers or loaves. In later years, when the use of volume measurements was firmly established in home kitchens, these recipes became known as 1234 cakes or quarter cakes, so called because they are made up of four ingredients: one cup of butter, two cups of sugar, three cups of flour, and four eggs. They are plain yellow cakes, somewhat less rich and less expensive than pound cake, due to using about half as much butter and eggs compared to pound cake.
+
+    The names of these two major classes of cakes were intended to signal the method to the baker; "cup cake" uses a volume measurement, and "pound cake" uses a weight measurement.
+    <a href="https://en.wikipedia.org/wiki/Cupcake">More Story</a></p>
+</div>
+<br>
+<div class="about">
+    <h1 align="center">The Story Of Brownies</h1>
+    <br>
+    <br>
+    <p>One legend about the creation of brownies is that of Bertha Palmer, a prominent Chicago socialite whose husband owned the Palmer House Hotel. In 1893, Palmer asked a pastry chef for a dessert suitable for ladies attending the Chicago World's Columbian Exposition. She requested a cake-like confection smaller than a piece of cake that could be included in boxed lunches. The result was the Palmer House Brownie with walnuts and an apricot glaze. The modern Palmer House Hotel serves a dessert to patrons made from the same recipe. The name was given to the dessert sometime after 1893, but was not used by cook books or journals at the time.
+
+    The first-known printed use of the word "brownie" to describe a dessert appeared in the 1896 version of the Boston Cooking-School Cook Book by Fannie Farmer, in reference to molasses cakes baked individually in tin molds. However, Farmer's brownies did not contain chocolate.
+
+    In 1899, the first-known recipe was published in Machias Cookbook. They were called "Brownie's Food". The recipe appears on page 23 in the cake section of the book. Marie Kelley from Whitewater, Wisconsin, created the recipe.
+
+    The earliest-known published recipes for a modern style chocolate brownie appeared in the Home Cookery (1904, Laconia, NH), Service Club Cook Book (1904, Chicago, IL), The Boston Globe (April 2, 1905 p. 34), and the 1906 edition of Fannie Farmer's cookbook. These recipes produced a relatively mild and cake-like brownie.
+
+    By 1907, the brownie was well established in a recognizable form, appearing in Lowney's Cook Book by Maria Willet Howard (published by Walter M. Lowney Company, Boston) as an adaptation of the Boston Cooking School recipe for a "Bangor Brownie". It added an extra egg and an additional square of chocolate, creating a richer, fudgier dessert. The name "Bangor Brownie" appears to have been derived from the town of Bangor, Maine, which an apocryphal story states was the hometown of a housewife who created the original brownie recipe. Maine food educator and columnist Mildred Brown Schrumpf was the main proponent of the theory that brownies were invented in Bangor.[a] While The Oxford Companion to American Food and Drink (2007) refuted Schrumpf's premise that "Bangor housewives" had created the brownie, citing the publication of a brownie recipe in a 1905 Fannie Farmer cookbook, in its second edition, The Oxford Encyclopedia of Food and Drink in America (2013) said it had discovered evidence to support Schrumpf's claim, in the form of several 1904 cookbooks that included a recipe for "Bangor Brownies".
+
+    In 2021, the food science journalist and home cookery YouTuber Adam Ragusea conducted a series of experiments to discover why modern brownies tend to form a desirably glossy "skin" on their upper crust. In a video reporting his findings, Ragusea asserted that the "skin" was the result of making a batter of high viscosity, with low levels of moisture and sugar well-dissolved into the mix.
+    <a href="https://en.wikipedia.org/wiki/Chocolate_brownie#:~:text=Marie%20Kelley%20from%20Whitewater%2C%20Wisconsin,edition%20of%20Fannie%20Farmer's%20cookbook.">More Story</a></p>
+</div>
+<div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>Kyootie Baked Goods</h3>
+                    <p><b>Fresh Cream Base</b></p>
+                </div>
+                <div class="footer-section">
+                    <h3>AVAILABLE ON</h3>
+                    <p><b>GoFood</b></p>
+                    <p><b>GrabFood</b></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Jl. Mangga V No.121 Kota Tangerang, Banten</p>
+                    <p>Kode Pos: 15138</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Talk With Us</h3>
+                    <p><b>Email: </b>KyootieBakedGoods@Gmail.com</p>
+                    <p><b>WhatsApp: </b>+62 851 731 788 09</p>
+                    <p><b>Monday - Sunday : 07.15 - 21.00 (GMT+7)</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2022. <b>Kyootie Baked Goods</b> All Rights Reserved.
+        </div>
+    </div>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+
+</script>
+
+</body>
+</html>
